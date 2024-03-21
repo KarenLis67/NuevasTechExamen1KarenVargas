@@ -1,5 +1,6 @@
 ﻿using Azure;
 using Azure.Data.Tables;
+using NuevasTech.Shared;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NuevasTech.API.Modelos
 {
-    public class Proveedor: ITableEntity
+    public class Proveedor: IProveedor,ITableEntity
 
     {
 

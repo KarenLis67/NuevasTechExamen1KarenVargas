@@ -3,7 +3,9 @@
     "NuevasTech.API": {
       "commandName": "Project",
       "commandLineArgs": "--port 7211",
-      "launchBrowser": false
+      "environmentVariables": {
+        "cadenaconexion": "DefaultEndpointsProtocol=https;AccountName=examen1nuevastechkaren;AccountKey=Tk8+rkd6w7hdzC2GDxgicRWffTJ3YnyBAiYUI/iTajC8n83FQTTfLH3ZUDsZwQyhWGYmjxJ9RdB9+ASt0nPggw==;EndpointSuffix=core.windows.net"
+      }
     }
   }
 }
