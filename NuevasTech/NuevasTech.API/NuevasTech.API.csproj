@@ -30,8 +30,6 @@
     <Using Include="System.Threading.ExecutionContext" Alias="ExecutionContext" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EndPoints\" />
-    <Folder Include="Contratos\" />
-    <Folder Include="Implementacion\" />
+    <ProjectReference Include="..\NuevasTech.Shared\NuevasTech.Shared.csproj" />
   </ItemGroup>
 </Project>

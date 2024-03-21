@@ -1,5 +1,6 @@
 ﻿using Azure;
 using Azure.Data.Tables;
+using NuevasTech.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NuevasTech.API.Modelos
 {
-    public class Producto: ITableEntity
+    public class Productos: IProductos,ITableEntity
 
     {
         public string Id { get; set; }
